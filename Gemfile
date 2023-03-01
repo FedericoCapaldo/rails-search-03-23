@@ -54,6 +54,8 @@ gem "simple_form", github: "heartcombo/simple_form"
 
 gem "pg_search"
 
+gem "elasticsearch", "< 7.14" # to use a supported version of the Elasticsearch Ruby client
+gem "searchkick", "~> 4.0"
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
